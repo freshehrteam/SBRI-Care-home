@@ -1,0 +1,481 @@
+{
+  "modelVersion" : 1,
+  "sources" : [ {
+    "sourceType" : "repository",
+    "id" : "social-care-data",
+    "user" : "freshehr",
+    "repositoryId" : "social-care-data"
+  } ],
+  "entries" : [ {
+    "path" : "Templates/Care Protect Plus.t.json",
+    "type" : "template",
+    "id" : "Care Protect Plus",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-13T13:52:24.739Z",
+    "dependsOn" : [ {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.downton_fall_risk_index.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.contact_cc.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-ADMIN_ENTRY.legal_authority.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.height.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.advance_care_directive.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.mental_capacity.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.waterlow_score_uk.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.abbey_pain_scale.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.cornell_depression_scale.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.body_mass_index.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.iorn2.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.must.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.four_at.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.visual_function.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.augmented_iorn.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.frase_dudley.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.doloplus2.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.edmonton_frail_scale.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.braden_scale.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.painad.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.auditory_function.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.person_anonymised_parent.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.bristol_stool_scale.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-COMPOSITION.encounter.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.star.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-ADMIN_ENTRY.consent_to_share.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.fhir_name.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.ethnicity_freshehr.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.ppsv2.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.blood_pressure.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.exam.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.intervention_decisions.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.phfrat1.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.respiration.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.spar.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.body_temperature.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.frase.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.fluid_input.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.medication_summary.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.pulse.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.mobility.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-SECTION.adhoc.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.adverse_reaction_risk.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.frase_ggc.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.stratify_no.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.frat.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.frase_lanarkshire.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.empower_sleep.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.body_weight.v2"
+    } ]
+  }, {
+    "path" : "Templates/Care Protect Plus.opt",
+    "type" : "opt",
+    "id" : "Care Protect Plus",
+    "lastModified" : "2021-05-13T13:52:24.739Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.downton_fall_risk_index.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.downton_fall_risk_index.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:26:28.722Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.contact_cc.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.contact_cc.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-12T16:56:03.256Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-ADMIN_ENTRY.legal_authority.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-ADMIN_ENTRY.legal_authority.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:27:33.766Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.height.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.height.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:43:10.697Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.advance_care_directive.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.advance_care_directive.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-09-10T11:10:19.275Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.mental_capacity.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.mental_capacity.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-04-28T13:08:43.579Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.waterlow_score_uk.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.waterlow_score_uk.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T10:02:47.846Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.abbey_pain_scale.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.abbey_pain_scale.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:44:27.782Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.cornell_depression_scale.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.cornell_depression_scale.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T10:09:47.703Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.body_mass_index.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.body_mass_index.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:43:08.465Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.iorn2.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.iorn2.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T09:59:06.874Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.must.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.must.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-26T09:47:39.864Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.four_at.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.four_at.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-02-16T10:48:30.682Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.visual_function.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.visual_function.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T12:12:39.361Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.augmented_iorn.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.augmented_iorn.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T13:30:36.627Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.frase_dudley.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.frase_dudley.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T08:53:41.520Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.doloplus2.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.doloplus2.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T10:12:18.836Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:45:07.401Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.edmonton_frail_scale.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.edmonton_frail_scale.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-09-03T13:23:57.971Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.braden_scale.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.braden_scale.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-02-11T15:30:36.971Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.painad.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.painad.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T10:14:51.156Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.auditory_function.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.auditory_function.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T12:09:14.260Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.person_anonymised_parent.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.person_anonymised_parent.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-02-11T14:26:48.825Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.bristol_stool_scale.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.bristol_stool_scale.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:40:18.114Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-COMPOSITION.encounter.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-12T16:56:03.256Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.star.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.star.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T09:03:02.813Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-ADMIN_ENTRY.consent_to_share.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-ADMIN_ENTRY.consent_to_share.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-04-28T13:08:42.359Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.fhir_name.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.fhir_name.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-12T16:56:03.256Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.ethnicity_freshehr.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.ethnicity_freshehr.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T12:23:57.619Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.ppsv2.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.ppsv2.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:21:17.913Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.blood_pressure.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:46:44.398Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.exam.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.exam.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T09:11:11.374Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.intervention_decisions.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.intervention_decisions.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:51:23.066Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.phfrat1.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.phfrat1.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-02-16T11:13:56.839Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.respiration.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.respiration.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:30:17.414Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.spar.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.spar.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T10:06:51.707Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.body_temperature.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.body_temperature.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:30:19.050Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.frase.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.frase.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T08:52:01.020Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.fluid_input.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.fluid_input.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:21:40.438Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.medication_summary.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.medication_summary.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-04-28T13:33:15.377Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.pulse.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.pulse.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:30:15.042Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-12T16:56:03.256Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.mobility.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.mobility.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:26:59.034Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-SECTION.adhoc.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-SECTION.adhoc.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-12T16:56:03.256Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.adverse_reaction_risk.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.adverse_reaction_risk.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:45:08.645Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.frase_ggc.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.frase_ggc.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T08:52:59.192Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.stratify_no.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.stratify_no.v1",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-08-25T16:36:39.134Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.frat.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.frat.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-13T11:12:22.634Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.frase_lanarkshire.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.frase_lanarkshire.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T08:54:32.676Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.empower_sleep.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.empower_sleep.v0",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2020-10-08T13:57:32.941Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.body_weight.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.body_weight.v2",
+    "sourceId" : "social-care-data",
+    "lastModified" : "2021-05-12T14:43:11.557Z"
+  } ]
+}
