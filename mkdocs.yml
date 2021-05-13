@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: Care Home Data models
+theme:
+  name: material
+  logo: images/j-mohw.png
+  favicon: images/j-mohw.png
+  palette:
+    primary: blue grey
+    accent: teal 
+   

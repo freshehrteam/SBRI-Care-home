@@ -12,8 +12,6 @@ The Care Protect managed care information project aims to establish a set of 'co
 
 These templates aim to provide a comprehensive care data set based on a combination of regularly routinely collected care home data, common 'care plan' data and trusted assessment / transfer of care data. 
 
-- 
-
 Registering for Apperta CKM template reviews
 
 To register for template reviews, please [sign up here](https://ckm.apperta.org/ckm/).
